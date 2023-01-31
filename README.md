@@ -36,5 +36,5 @@ jupyter notebook
 If you have nvidia videocard:
 ```bash
 sudo docker build . -t solar:latest
-sudo sudo docker run --gpus all --interactive --tty -v ${pwd}/docker_folder:/home/user/docker/ docker-tcvc:latest
+sudo sudo docker run --gpus all --interactive --tty -v ${pwd}/docker_folder:/home/user/docker/ solar:latest
 ```
