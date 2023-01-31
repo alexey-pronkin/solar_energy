@@ -1,10 +1,19 @@
 ## Install environment
 
 - Install miniconda https://docs.conda.io/en/main/miniconda.html
+
+### MacOS
+
+```bash
+conda env create -f environment_macos.yml
+```
+
+### Linux
 - Create env:
 ```bash
 conda create --name solar --file requirements.txt
 ```
+
 If you using macos or windows, alternative install:
 
 ```bash

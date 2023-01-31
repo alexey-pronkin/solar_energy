@@ -16,5 +16,5 @@ linear_regression.compile(
 linear_regression.load_weights('linear_regression_l11000.0_l21000.0.h5')
 print(
     "Predict on 31.07.2022 20000, 40000 secs:",
-    predict(seconds=[20000, 40000], year=2022, month=7, day=31, model=linear_regression),
+    predict(seconds=[0, 20000, 40000, 50000], year=2021, month=8, day=31, model=linear_regression),
 )
