@@ -1,6 +1,5 @@
 xgboost
-keras
-tensorflow
+numpy
 pandas
 matplotlib
 scipy

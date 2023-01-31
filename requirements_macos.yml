@@ -14,4 +14,14 @@ dependencies:
   - pip:
     - tensorflow-macos
     - tensorflow-metal  ## optional, but recommended
-    
+    - numpy
+    - xgboost
+    - pandas
+    - matplotlib
+    - scipy
+    - scikit-learn
+    - lightgbm
+    - jupyter
+    - hyperopt
+    - ephem
+    - black

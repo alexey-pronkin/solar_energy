@@ -8,8 +8,8 @@ conda create --name solar --file requirements.txt
 If you using macos or windows, alternative install:
 
 ```bash
-conda create --name solar python=3.10.9
-conda run -n solar python -m pip install -r requirements_docker.txt
+conda create --name solar python=3.10.9 -y
+conda run -n solar python -m pip install -r requirements_docker.txt -y
 ```
 
 - activate env
@@ -26,6 +26,6 @@ jupyter notebook
 ## Docker
 
 ```bash
-sudo docker build . -t solar
+sudo docker build . -t solar:latest
 sudo sudo docker run --gpus all --interactive --tty -v ${pwd}/docker_folder:/home/user/docker/ docker-tcvc:latest
 ```
